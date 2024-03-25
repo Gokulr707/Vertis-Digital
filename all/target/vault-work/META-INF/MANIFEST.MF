@@ -1,0 +1,13 @@
+Manifest-Version: 1.0
+Implementation-Title: Vertis Digital - All
+Content-Package-Roots: /apps/vertisdigital-packages,/apps/vertisdigita
+ l-vendor-packages
+Implementation-Version: 1.0-SNAPSHOT
+Built-By: AKASH
+Implementation-Vendor-Id: com.vertisdigital
+Content-Package-Type: application
+Created-By: Apache Maven
+Build-Jdk: 1.8.0_202
+Content-Package-Description: All content package for Vertis Digital
+Content-Package-Id: com.vertisdigital:vertisdigital.all:1.0-SNAPSHOT
+

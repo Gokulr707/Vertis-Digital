@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="vertisdigital.all" />
+        <module name="vertisdigital.ui.apps.structure" />
+        <module name="vertisdigital.ui.apps" />
+        <module name="vertisdigital.ui.content" />
+        <module name="vertisdigital.core" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="vertisdigital.dispatcher.ams" target="1.8" />
+      <module name="vertisdigital.dispatcher.cloud" target="1.8" />
+      <module name="vertisdigital.it.launcher" target="1.8" />
+      <module name="vertisdigital.it.tests" target="1.8" />
+      <module name="vertisdigital.ui.frontend" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

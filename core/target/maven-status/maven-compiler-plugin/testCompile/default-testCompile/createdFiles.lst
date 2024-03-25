@@ -1,0 +1,8 @@
+com\vertisdigital\core\models\HelloWorldModelTest.class
+com\vertisdigital\core\filters\LoggingFilterTest.class
+com\vertisdigital\core\schedulers\SimpleScheduledTaskTest.class
+com\vertisdigital\core\servlets\SimpleServletTest.class
+com\vertisdigital\core\models\menuitems\MenuItemTest.class
+com\vertisdigital\core\listeners\SimpleResourceListenerTest.class
+com\vertisdigital\core\models\MegaMenuModelTest.class
+com\vertisdigital\core\service\impl\MegaMenuServiceImplTest.class

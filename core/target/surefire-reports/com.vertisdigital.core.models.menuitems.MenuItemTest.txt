@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: com.vertisdigital.core.models.menuitems.MenuItemTest
+-------------------------------------------------------------------------------
+Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.095 s - in com.vertisdigital.core.models.menuitems.MenuItemTest

@@ -1,0 +1,19 @@
+
+Ê
+java:S1186Š"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(¸¾Îùÿÿÿÿÿ8öî½¯æ1J$daeb10af-f867-4710-8400-f99d3c985f18
+Š
+java:S6813'"BRemove this field injection and use constructor injection instead.(Áº–üÿÿÿÿ8ªé¶¯æ1J$6f556da1-978c-4faa-a5e2-7e10cfdb0220
+Š
+java:S6813-"BRemove this field injection and use constructor injection instead.(Áº–üÿÿÿÿ8«é¶¯æ1J$10d83163-25fd-4cce-87ab-5e2d96441dd4
+Š
+java:S6813/"BRemove this field injection and use constructor injection instead.(Áº–üÿÿÿÿ8«é¶¯æ1J$e52cb823-3d5f-4a47-8cee-3efa828cb39a
+Š
+java:S68131"BRemove this field injection and use constructor injection instead.(Áº–üÿÿÿÿ8«é¶¯æ1J$1f4c0eba-1403-41d5-82f4-d45ff97dd310
+s
+java:S2065."0Remove the "transient" modifier from this field.(şğµ8®é¶¯æ1J$d068fd17-5950-4921-87bb-6cff45223007
+•
+java:S3776D"RRefactor this method to reduce its Cognitive Complexity from 17 to the 15 allowed.(¡İª‰8³é¶¯æ1J$a1c80117-8de9-4d9a-819e-0b09c536dc00
+p
+java:S1172s"(Remove this unused method parameter "b".(¥’“ùÿÿÿÿ8·é¶¯æ1J$49b7e875-7bef-44c0-ab7e-bc0c31374b61
+k
+java:S1172w"(Remove this unused method parameter "b".(É¶Ò½8¸é¶¯æ1J$e9e96c41-de2c-4ed5-9748-941fc160244b

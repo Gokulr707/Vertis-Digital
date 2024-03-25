@@ -1,0 +1,16 @@
+Manifest-Version: 1.0
+Implementation-Title: Vertis Digital - UI content
+Content-Package-Roots: /conf/vertisdigital,/content/dam/vertisdigital,
+ /content/experience-fragments/vertisdigital,/content/vertisdigital
+Implementation-Version: 1.0-SNAPSHOT
+Built-By: AKASH
+Implementation-Vendor-Id: com.vertisdigital
+Content-Package-Dependencies: com.vertisdigital:vertisdigital.ui.apps:
+ 1.0-SNAPSHOT
+Content-Package-Type: content
+Created-By: Apache Maven
+Build-Jdk: 1.8.0_202
+Content-Package-Description: UI content package for Vertis Digital
+Content-Package-Id: com.vertisdigital:vertisdigital.ui.content:1.0-SNA
+ PSHOT
+

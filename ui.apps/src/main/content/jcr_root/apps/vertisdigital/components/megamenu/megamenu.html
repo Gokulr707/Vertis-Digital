@@ -1,0 +1,128 @@
+<sly data-sly-use.menuModel="com.vertisdigital.core.models.MegaMenuModel"
+     data-sly-use.page="com.adobe.cq.wcm.core.components.models.Page"
+     data-sly-use.template="core/wcm/components/commons/v1/templates.html"
+     data-sly-test.emptyData="${menuModel.pagePath}">
+
+    <!-- Add your HTML structure here -->
+
+    <nav class="navmenu">
+        <ul data-sly-list.child="${menuModel.megaMenuNavigationBar}">
+            <li>
+                <a href="${child.url}.html">${child.title}</a>
+                <sly data-sly-test="${child.subMenuPages}">
+                    <ul data-sly-list.submenu="${child.subMenuPages}">
+                        <li><a href="${submenu.url}.html">${submenu.title}</a></li>
+                    </ul>
+                </sly>
+            </li>
+        </ul>
+    </nav>
+
+
+
+</sly>
+
+<style>
+    body {
+        margin: 0;
+        padding: 0;
+        font-family: sans-serif;
+    }
+
+    a {
+        text-decoration: none;
+    }
+
+    .navmenu {
+        border: 1px solid red;
+        border-radius: 13px;
+
+        box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+    }
+
+    .navmenu ul {
+        padding-left: 0;
+        margin: 0;
+        list-style: none;
+        display: flex; /* Display items horizontally */
+        justify-content: space-around;
+    }
+
+    .navmenu li {
+        display: inline-block;
+        position: relative;
+    }
+
+    .navmenu a {
+        color: #0a0a0a;
+        display: block;
+        padding: 20px 15px;
+        border-bottom: 3px solid transparent;
+        transition: color 0.3s, border-bottom 0.3s;
+    }
+
+    .navmenu li:hover > a {
+        color: #E63946; /* Change color on hover */
+        border-bottom: 3px solid #E63946; /* Change border color on hover */
+    }
+
+    .navmenu ul ul {
+        display: none;
+        position: absolute;
+        top: 100%;
+        left: 0;
+        font-size: 13px;
+        width: 100%;
+        opacity: 0; /* Initially hidden */
+        transition: opacity 0.3s ease; /* Smooth transition */
+    }
+
+    .navmenu ul li:hover > ul {
+        display: block;
+        opacity: 1; /* Show submenu */
+    }
+
+    .navmenu ul ul li {
+        display: block;
+    }
+
+    /* Animation for submenu */
+    @keyframes fadeIn {
+        from { opacity: 0; }
+        to { opacity: 1; }
+    }
+
+    /* Apply animation to submenu */
+    .navmenu ul ul {
+        animation: fadeIn 0.3s ease;
+    }
+
+    /* Responsive Styles */
+    @media (max-width: 768px) {
+        .navmenu ul {
+            flex-direction: column;
+        }
+
+        .navmenu li {
+            width: 100%;
+            text-align: center;
+        }
+
+        .navmenu ul ul {
+            position: static;
+            background: none;
+            opacity: 1; /* Show submenu */
+        }
+
+        .navmenu ul ul li {
+            display: none;
+            border-bottom: 1px solid #ddd;
+            margin: 0;
+        }
+
+        .navmenu ul li:hover > ul li {
+            display: block;
+        }
+    }
+</style>
+<sly data-sly-call="${template.placeholder @ isEmpty = !emptyData}"></sly>

@@ -1,0 +1,7 @@
+org\apache\sling\scripting\sightly\apps\vertisdigital\components\helloworld\helloworld_html.class
+org\apache\sling\scripting\sightly\apps\vertisdigital\components\xfpage\customheaderlibs_html.class
+org\apache\sling\scripting\sightly\apps\vertisdigital\components\xfpage\content_html.class
+org\apache\sling\scripting\sightly\apps\vertisdigital\components\megamenu\megamenu_html.class
+org\apache\sling\scripting\sightly\apps\vertisdigital\components\page\customfooterlibs_html.class
+org\apache\sling\scripting\sightly\apps\vertisdigital\components\page\customheaderlibs_html.class
+org\apache\sling\scripting\sightly\apps\vertisdigital\components\xfpage\customfooterlibs_html.class

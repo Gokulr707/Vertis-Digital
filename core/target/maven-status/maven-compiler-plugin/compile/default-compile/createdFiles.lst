@@ -1,0 +1,15 @@
+com\vertisdigital\core\schedulers\SimpleScheduledTask.class
+com\vertisdigital\core\schedulers\SimpleScheduledTask$Config.class
+com\vertisdigital\core\schedulers\package-info.class
+com\vertisdigital\core\listeners\package-info.class
+com\vertisdigital\core\service\MegaMenuService.class
+com\vertisdigital\core\servlets\package-info.class
+com\vertisdigital\core\listeners\SimpleResourceListener.class
+com\vertisdigital\core\models\package-info.class
+com\vertisdigital\core\models\MegaMenuModel.class
+com\vertisdigital\core\servlets\SimpleServlet.class
+com\vertisdigital\core\filters\package-info.class
+com\vertisdigital\core\service\impl\MegaMenuServiceImpl.class
+com\vertisdigital\core\models\menuitems\MenuItem.class
+com\vertisdigital\core\filters\LoggingFilter.class
+com\vertisdigital\core\models\HelloWorldModel.class

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
+<properties>
+<comment>Vertis Digital - All</comment>
+<entry key="createdBy">AKASH</entry>
+<entry key="allowIndexDefinitions">false</entry>
+<entry key="name">vertisdigital.all</entry>
+<entry key="created">2024-03-24T08:15:25.872+05:30</entry>
+<entry key="groupId">com.vertisdigital</entry>
+<entry key="version">1.0-SNAPSHOT</entry>
+<entry key="packageType">application</entry>
+<entry key="requiresRoot">false</entry>
+<entry key="group">com.vertisdigital</entry>
+<entry key="description">All content package for Vertis Digital</entry>
+<entry key="artifactId">vertisdigital.all</entry>
+</properties>
